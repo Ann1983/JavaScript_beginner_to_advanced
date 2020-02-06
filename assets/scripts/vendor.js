@@ -11,3 +11,9 @@ function outputResult(result, text) {
   currentResultOutput.textContent = result;
   currentCalculationOutput.textContent = text;
 }
+
+
+const greeting = () => {
+  const intro = 'Hello';
+  return name => intro + " " + name;
+};
